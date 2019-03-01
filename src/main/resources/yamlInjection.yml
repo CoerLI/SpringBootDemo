@@ -1,0 +1,22 @@
+# yaml
+# 大小写敏感、使用缩进表达层级
+# 锚点 & 和 引用锚点 <<: *
+
+# 键值对形式，可以表示对象、数组
+yamlinjection:
+  info: lihang
+  infos:
+    - string_1
+    - string_2
+    - string_3
+    - string_4
+  map-infos:
+    key_1: val_1
+    key_2: val_2
+    key_3: val_3
+    key_4: val_4
+  list-infos:
+    - listInfo_1
+    - listInfo_2
+    - listInfo_3
+    - listInfo_4
